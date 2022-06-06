@@ -4,6 +4,7 @@ import Banner from './Banner';
 import Advertisers from './Advertisers';
 import AdFormats from './AdFormats';
 import Publishers from './Publishers';
+import Footer from './Footer';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Advertisers></Advertisers>
             <AdFormats></AdFormats>
             <Publishers></Publishers>
+            <Footer></Footer>
         </div>
     );
 };

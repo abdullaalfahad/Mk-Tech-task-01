@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Navbar = () => {
+    const [click, setClick] = useState(false);
+    const [english, setEnglish] = useState(false);
+
     const menuItems = <>
         <li><a href='index.html' className='text-primary font-medium hover:text-secondary'>Home</a></li>
         <li><a href='#advertisers' className='text-primary font-medium hover:text-secondary'>Advertisers</a></li>
@@ -14,10 +17,10 @@ const Navbar = () => {
         <nav>
             <div className="navbar">
                 <div className="navbar-start">
-                    <a href='index.html' className="btn btn-ghost normal-case text-xl">LOGO</a>
+                    <a href='index.html' className="btn btn-ghost normal-case text-2xl">DIGITALVISION</a>
                 </div>
                 <div className="navbar-end">
-                    <a className="mr-10"><span className='text-success'>BN</span> / EN</a>
+                    <p className="mr-10"><button className={english ? '' : 'text-success'} onClick={() => setEnglish(false)}>BN</button><span> / </span><button className={english ? 'text-success' : ''} onClick={() => setEnglish(true)}>EN</button></p>
                 </div>
             </div>
 
@@ -38,8 +41,9 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-end">
-                    <p className='bg-white px-6 py-2 rounded-full'><button className='mr-3 text-accent'>LOGIN</button><button className='btn btn-secondary text-white rounded-full '>SIGN UP</button></p>
+                    <p className='bg-white px-12 py-2 rounded-full'><button className={click ? 'btn btn-secondary text-white rounded-full mr-4' : 'text-accent rounded-full mr-4'} onClick={() => setClick(true)}>LOGIN</button><button className={click ? 'text-accent rounded-full' : 'btn btn-secondary text-white rounded-full'} onClick={() => setClick(false)}>SIGN UP</button></p>
                 </div>
+                {/* className='mr-3 text-accent rounded-full focus:btn focus:btn-secondary focus:text-white focus:rounded-full' */}
             </div>
         </nav>
     );
