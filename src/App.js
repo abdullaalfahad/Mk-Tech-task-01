@@ -1,15 +1,19 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Advertisers from './components/Advertisers';
-import Banner from './components/Banner';
-import Navbar from './components/Navbar';
+import AdFormats from './components/AdFormats';
+import BannerAd from './components/BannerAd';
+import Home from './components/Home';
+import PopUnder from './components/PopUnder';
 
 function App() {
   return (
     <div className='bg-neutral'>
-      <Navbar></Navbar>
-      <Banner></Banner>
-      <Advertisers></Advertisers>
-
+      <Routes>
+        <Route path='/' element={<Home></Home>}>
+          <Route index element={<PopUnder></PopUnder>}></Route>
+          <Route path='bannerAd' element={<BannerAd></BannerAd>}></Route>
+        </Route>
+      </Routes>
     </div>
   );
 }
