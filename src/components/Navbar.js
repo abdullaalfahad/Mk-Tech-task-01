@@ -8,7 +8,7 @@ const Navbar = () => {
         <li><a href='index.html' className='text-primary font-medium hover:text-secondary'>Home</a></li>
         <li><a href='#advertisers' className='text-primary font-medium hover:text-secondary'>Advertisers</a></li>
         <li><a href='#publishers' className='text-primary font-medium hover:text-secondary'>Publishers</a></li>
-        <li><a href='' className='text-primary font-medium hover:text-secondary'>Influencers</a></li>
+        <li><a href='#influencers' className='text-primary font-medium hover:text-secondary'>Influencers</a></li>
         <li><a href='#ad-formats' className='text-primary font-medium hover:text-secondary'>Ad Formats</a></li>
         <li><a href='' className='text-primary font-medium hover:text-secondary'>Blog</a></li>
         <li><a href='' className='text-primary font-medium hover:text-secondary'>Contact Us</a></li>

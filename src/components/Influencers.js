@@ -2,7 +2,7 @@ import React from 'react';
 
 const Influencers = () => {
     return (
-        <div id='advertisers' className='py-16 lg:py-28'>
+        <div id='influencers' className='py-16 lg:py-28'>
             <div class="divider text-xl lg:text-4xl text-primary">INFLUENCERS</div>
             <div className='container mx-auto mt-12 lg:mt-20'>
                 <div className='grid md:grid-cols-3 gap-8 mx-auto w-11/12'>
