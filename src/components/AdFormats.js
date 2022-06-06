@@ -14,7 +14,7 @@ const AdFormats = () => {
                         <Link to='/bannerAd'><button className='btn btn-neutral rounded-full px-8 shadow-lg shadow-neutral-500/100'>BANNER AD</button></Link>
                     </div>
                     <div className='text-center'>
-                        <button className='btn btn-neutral rounded-full px-8 shadow-lg shadow-neutral-500/100'>POP-UNDER</button>
+                        <Link to="/native"><button className='btn btn-neutral rounded-full px-8 shadow-lg shadow-neutral-500/100'>NATIVE</button></Link>
                     </div>
                     <div className='text-center'>
                         <button className='btn btn-neutral rounded-full px-8 shadow-lg shadow-neutral-500/100'>POP-UNDER</button>
