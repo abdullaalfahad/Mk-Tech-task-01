@@ -5,6 +5,7 @@ import Advertisers from './Advertisers';
 import AdFormats from './AdFormats';
 import Publishers from './Publishers';
 import Footer from './Footer';
+import Influencers from './Influencers';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Advertisers></Advertisers>
             <AdFormats></AdFormats>
             <Publishers></Publishers>
+            <Influencers></Influencers>
             <Footer></Footer>
         </div>
     );
