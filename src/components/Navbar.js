@@ -5,7 +5,7 @@ const Navbar = () => {
     const [english, setEnglish] = useState(false);
 
     const menuItems = <>
-        <li><a href='index.html' className='text-primary font-medium hover:text-secondary'>Home</a></li>
+        <li><a href='/' className='text-primary font-medium hover:text-secondary'>Home</a></li>
         <li><a href='#advertisers' className='text-primary font-medium hover:text-secondary'>Advertisers</a></li>
         <li><a href='#publishers' className='text-primary font-medium hover:text-secondary'>Publishers</a></li>
         <li><a href='#influencers' className='text-primary font-medium hover:text-secondary'>Influencers</a></li>
@@ -17,7 +17,7 @@ const Navbar = () => {
         <nav>
             <div className="navbar">
                 <div className="navbar-start">
-                    <a href='index.html' className="btn btn-ghost normal-case text-2xl">DIGITALVISION</a>
+                    <a href='/' className="btn btn-ghost normal-case text-2xl">DIGITALVISION</a>
                 </div>
                 <div className="navbar-end">
                     <p className="mr-10"><button className={english ? '' : 'text-success'} onClick={() => setEnglish(false)}>BN</button><span> / </span><button className={english ? 'text-success' : ''} onClick={() => setEnglish(true)}>EN</button></p>
