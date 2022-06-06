@@ -1,6 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import AdFormats from './components/AdFormats';
 import BannerAd from './components/BannerAd';
 import Home from './components/Home';
 import Native from './components/Native';
