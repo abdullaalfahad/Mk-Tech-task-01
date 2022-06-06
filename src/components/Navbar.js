@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
     const menuItems = <>
-        <li><a href='' className='text-primary font-medium hover:text-secondary'>Home</a></li>
-        <li><a href='' className='text-primary font-medium hover:text-secondary'>Advertisers</a></li>
+        <li><a href='index.html' className='text-primary font-medium hover:text-secondary'>Home</a></li>
+        <li><a href='#advertisers' className='text-primary font-medium hover:text-secondary'>Advertisers</a></li>
         <li><a href='' className='text-primary font-medium hover:text-secondary'>Publishers</a></li>
         <li><a href='' className='text-primary font-medium hover:text-secondary'>Influencers</a></li>
         <li><a href='' className='text-primary font-medium hover:text-secondary'>Ad Formats</a></li>
@@ -14,7 +14,7 @@ const Navbar = () => {
         <nav>
             <div className="navbar">
                 <div className="navbar-start">
-                    <a className="btn btn-ghost normal-case text-xl">LOGO</a>
+                    <a href='index.html' className="btn btn-ghost normal-case text-xl">LOGO</a>
                 </div>
                 <div className="navbar-end">
                     <a className="mr-10"><span className='text-success'>BN</span> / EN</a>
