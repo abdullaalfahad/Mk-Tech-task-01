@@ -8,16 +8,16 @@ const AdFormats = () => {
             <div className='container mx-auto mt-12'>
                 <div className='grid md:grid-cols-4 gap-12 lg:gap-4'>
                     <div className='text-center'>
-                        <Link to='/'><button className='btn btn-neutral rounded-full px-8 shadow-lg shadow-neutral-500/100'>POP-UNDER</button></Link>
+                        <Link to='/'><button className='btn btn-neutral rounded-full px-8 shadow-lg shadow-neutral-500/100 focus:btn-secondary focus:text-white'>POP-UNDER</button></Link>
                     </div>
                     <div className='text-center'>
-                        <Link to='/bannerAd'><button className='btn btn-neutral rounded-full px-8 shadow-lg shadow-neutral-500/100'>BANNER AD</button></Link>
+                        <Link to='/bannerAd'><button className='btn btn-neutral rounded-full px-8 shadow-lg shadow-neutral-500/100 focus:btn-secondary focus:text-white'>BANNER AD</button></Link>
                     </div>
                     <div className='text-center'>
-                        <Link to="/native"><button className='btn btn-neutral rounded-full px-8 shadow-lg shadow-neutral-500/100'>NATIVE</button></Link>
+                        <Link to="/native"><button className='btn btn-neutral rounded-full px-8 shadow-lg shadow-neutral-500/100 focus:btn-secondary focus:text-white'>NATIVE</button></Link>
                     </div>
                     <div className='text-center'>
-                        <button className='btn btn-neutral rounded-full px-8 shadow-lg shadow-neutral-500/100'>POP-UNDER</button>
+                        <Link to="/skim"><button className='btn btn-neutral rounded-full px-8 shadow-lg shadow-neutral-500/100 focus:btn-secondary focus:text-white'>SKIM</button></Link>
                     </div>
                 </div>
                 <Outlet></Outlet>

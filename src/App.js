@@ -5,6 +5,7 @@ import BannerAd from './components/BannerAd';
 import Home from './components/Home';
 import Native from './components/Native';
 import PopUnder from './components/PopUnder';
+import Skim from './components/Skim';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<PopUnder></PopUnder>}></Route>
           <Route path='bannerAd' element={<BannerAd></BannerAd>}></Route>
           <Route path='native' element={<Native></Native>}></Route>
+          <Route path='skim' element={<Skim></Skim>}></Route>
         </Route>
       </Routes>
     </div>
